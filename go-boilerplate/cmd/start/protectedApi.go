@@ -6,8 +6,8 @@ Contact: dexter.codo@gmail.com
 package start
 
 import (
-	"github.com/codoworks/go-boilerplate/pkg/config"
-	"github.com/codoworks/go-boilerplate/pkg/proc"
+	"github.com/WahidinAlambiyah/golang/pkg/config"
+	"github.com/WahidinAlambiyah/golang/pkg/proc"
 
 	"github.com/spf13/cobra"
 )

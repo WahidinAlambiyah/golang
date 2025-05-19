@@ -6,8 +6,8 @@ Contact: dexter.codo@gmail.com
 package dbc
 
 import (
-	"github.com/codoworks/go-boilerplate/pkg/clients/dbc/adapters"
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/dbc/adapters"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 	"gorm.io/gorm"
 	gLogger "gorm.io/gorm/logger"

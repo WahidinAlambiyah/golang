@@ -8,7 +8,7 @@ package middlewares
 import (
 	"net/http"
 
-	"github.com/codoworks/go-boilerplate/pkg/clients/cors"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/cors"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

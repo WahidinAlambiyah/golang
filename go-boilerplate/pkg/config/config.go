@@ -5,7 +5,7 @@ Contact: dexter.codo@gmail.com
 */
 package config
 
-import "github.com/codoworks/go-boilerplate/pkg/config/features"
+import "github.com/WahidinAlambiyah/golang/pkg/config/features"
 
 func InitEnv() {
 	Env.Init()

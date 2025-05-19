@@ -8,9 +8,9 @@ package proc
 import (
 	"time"
 
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
-	"github.com/codoworks/go-boilerplate/pkg/clients/service"
-	"github.com/codoworks/go-boilerplate/pkg/utils"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/service"
+	"github.com/WahidinAlambiyah/golang/pkg/utils"
 )
 
 func StartWatcher() {

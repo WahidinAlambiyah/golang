@@ -6,7 +6,7 @@ Contact: dexter.codo@gmail.com
 package info
 
 import (
-	"github.com/codoworks/go-boilerplate/pkg/config"
+	"github.com/WahidinAlambiyah/golang/pkg/config"
 
 	"github.com/spf13/cobra"
 )

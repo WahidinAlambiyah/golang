@@ -8,7 +8,7 @@ package tasks
 import (
 	"fmt"
 
-	"github.com/codoworks/go-boilerplate/pkg/config"
+	"github.com/WahidinAlambiyah/golang/pkg/config"
 
 	"github.com/jedib0t/go-pretty/v6/table"
 )

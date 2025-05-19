@@ -6,9 +6,9 @@ Contact: dexter.codo@gmail.com
 package cmd
 
 import (
-	"github.com/codoworks/go-boilerplate/cmd/task"
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
-	"github.com/codoworks/go-boilerplate/pkg/proc"
+	"github.com/WahidinAlambiyah/golang/cmd/task"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/proc"
 
 	"github.com/spf13/cobra"
 )

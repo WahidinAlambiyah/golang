@@ -8,8 +8,8 @@ package middlewares
 import (
 	"fmt"
 
-	"github.com/codoworks/go-boilerplate/pkg/clients/kratos"
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/kratos"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 	"github.com/labstack/echo/v4"
 )

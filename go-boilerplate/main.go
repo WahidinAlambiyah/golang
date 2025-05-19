@@ -5,7 +5,7 @@ Contact: dexter.codo@gmail.com
 */
 package main
 
-import "github.com/codoworks/go-boilerplate/cmd"
+import "github.com/WahidinAlambiyah/golang/cmd"
 
 var VERSION string = "2.2.1-default"
 

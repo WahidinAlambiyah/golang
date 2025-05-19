@@ -5,7 +5,7 @@ Contact: dexter.codo@gmail.com
 */
 package features
 
-import "github.com/codoworks/go-boilerplate/pkg/utils/constants"
+import "github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 type CorsConfig struct {
 	AllowOrigins  string `mapstructure:"CORS_ALLOW_ORIGINS"`

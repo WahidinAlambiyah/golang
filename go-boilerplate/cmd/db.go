@@ -6,10 +6,10 @@ Contact: dexter.codo@gmail.com
 package cmd
 
 import (
-	"github.com/codoworks/go-boilerplate/cmd/db"
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
-	"github.com/codoworks/go-boilerplate/pkg/proc"
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/cmd/db"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/proc"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 	"github.com/spf13/cobra"
 )

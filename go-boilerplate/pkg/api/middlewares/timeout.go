@@ -8,8 +8,8 @@ package middlewares
 import (
 	"time"
 
-	"github.com/codoworks/go-boilerplate/pkg/clients/service"
-	"github.com/codoworks/go-boilerplate/pkg/utils"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/service"
+	"github.com/WahidinAlambiyah/golang/pkg/utils"
 
 	"github.com/labstack/echo/v4"
 	"github.com/labstack/echo/v4/middleware"

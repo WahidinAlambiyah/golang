@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"fmt"
 
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
-	"github.com/codoworks/go-boilerplate/pkg/config"
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/config"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 	"github.com/go-playground/validator/v10"
 )

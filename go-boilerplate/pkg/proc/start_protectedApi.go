@@ -6,8 +6,8 @@ Contact: dexter.codo@gmail.com
 package proc
 
 import (
-	"github.com/codoworks/go-boilerplate/pkg/api/routers"
-	"github.com/codoworks/go-boilerplate/pkg/clients/service"
+	"github.com/WahidinAlambiyah/golang/pkg/api/routers"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/service"
 )
 
 func StartProtectedApi() {

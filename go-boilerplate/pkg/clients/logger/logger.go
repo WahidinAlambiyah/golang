@@ -9,7 +9,7 @@ import (
 	"os"
 	"time"
 
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 	"github.com/neko-neko/echo-logrus/v2/log"
 	"github.com/sirupsen/logrus"

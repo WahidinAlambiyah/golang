@@ -6,12 +6,12 @@ Contact: dexter.codo@gmail.com
 package routers
 
 import (
-	"github.com/codoworks/go-boilerplate/pkg/api/handlers/errors"
-	healthHandlers "github.com/codoworks/go-boilerplate/pkg/api/handlers/healthz"
-	"github.com/codoworks/go-boilerplate/pkg/api/middlewares"
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
-	"github.com/codoworks/go-boilerplate/pkg/config"
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/pkg/api/handlers/errors"
+	healthHandlers "github.com/WahidinAlambiyah/golang/pkg/api/handlers/healthz"
+	"github.com/WahidinAlambiyah/golang/pkg/api/middlewares"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/config"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 )
 
 var hiddenApiRouter *Router

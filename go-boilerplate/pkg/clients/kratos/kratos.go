@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"reflect"
 
-	"github.com/codoworks/go-boilerplate/pkg/config/features"
+	"github.com/WahidinAlambiyah/golang/pkg/config/features"
 
 	oryKratos "github.com/ory/kratos-client-go"
 )

@@ -13,8 +13,8 @@ import (
 	"os/signal"
 	"time"
 
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 	"github.com/labstack/echo/v4"
 )

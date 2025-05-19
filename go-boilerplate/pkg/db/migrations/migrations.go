@@ -6,7 +6,7 @@ Contact: dexter.codo@gmail.com
 package migrations
 
 import (
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
 
 	"github.com/go-gormigrate/gormigrate/v2"
 	"gorm.io/gorm"

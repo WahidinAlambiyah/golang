@@ -8,8 +8,8 @@ package healthz
 import (
 	"net/http"
 
-	"github.com/codoworks/go-boilerplate/pkg/api/handlers"
-	"github.com/codoworks/go-boilerplate/pkg/config"
+	"github.com/WahidinAlambiyah/golang/pkg/api/handlers"
+	"github.com/WahidinAlambiyah/golang/pkg/config"
 
 	"github.com/labstack/echo/v4"
 )

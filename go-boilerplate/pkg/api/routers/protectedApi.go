@@ -6,14 +6,14 @@ Contact: dexter.codo@gmail.com
 package routers
 
 import (
-	catsHandlers "github.com/codoworks/go-boilerplate/pkg/api/handlers/cats"
-	"github.com/codoworks/go-boilerplate/pkg/api/handlers/errors"
-	healthHandlers "github.com/codoworks/go-boilerplate/pkg/api/handlers/healthz"
-	usersHandlers "github.com/codoworks/go-boilerplate/pkg/api/handlers/users"
-	"github.com/codoworks/go-boilerplate/pkg/api/middlewares"
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
-	"github.com/codoworks/go-boilerplate/pkg/config"
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	catsHandlers "github.com/WahidinAlambiyah/golang/pkg/api/handlers/cats"
+	"github.com/WahidinAlambiyah/golang/pkg/api/handlers/errors"
+	healthHandlers "github.com/WahidinAlambiyah/golang/pkg/api/handlers/healthz"
+	usersHandlers "github.com/WahidinAlambiyah/golang/pkg/api/handlers/users"
+	"github.com/WahidinAlambiyah/golang/pkg/api/middlewares"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/config"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 )
 
 var protectedApiRouter *Router

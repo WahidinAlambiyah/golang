@@ -6,7 +6,7 @@ Contact: dexter.codo@gmail.com
 package middlewares
 
 import (
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 	"github.com/labstack/echo/v4"
 )

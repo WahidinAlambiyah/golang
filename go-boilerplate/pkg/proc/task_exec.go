@@ -8,8 +8,8 @@ package proc
 import (
 	"fmt"
 
-	"github.com/codoworks/go-boilerplate/pkg/tasks"
-	"github.com/codoworks/go-boilerplate/pkg/utils"
+	"github.com/WahidinAlambiyah/golang/pkg/tasks"
+	"github.com/WahidinAlambiyah/golang/pkg/utils"
 )
 
 func TaskExec(args []string) {

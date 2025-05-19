@@ -6,9 +6,9 @@ Contact: dexter.codo@gmail.com
 package proc
 
 import (
-	"github.com/codoworks/go-boilerplate/pkg/clients/dbc"
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
-	"github.com/codoworks/go-boilerplate/pkg/db/seeds"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/dbc"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/db/seeds"
 )
 
 func DBSeed() {

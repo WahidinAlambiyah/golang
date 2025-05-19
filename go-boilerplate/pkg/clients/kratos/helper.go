@@ -5,7 +5,7 @@ Contact: dexter.codo@gmail.com
 */
 package kratos
 
-import "github.com/codoworks/go-boilerplate/pkg/utils/constants"
+import "github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 func init() {
 	kratosClient = &Kratos{

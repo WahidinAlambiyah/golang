@@ -6,7 +6,7 @@ Contact: dexter.codo@gmail.com
 package features
 
 import (
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 )
 
 type ServiceConfig struct {

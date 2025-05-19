@@ -12,10 +12,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
-	"github.com/codoworks/go-boilerplate/pkg/config/features"
-	"github.com/codoworks/go-boilerplate/pkg/utils"
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/config/features"
+	"github.com/WahidinAlambiyah/golang/pkg/utils"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 	"github.com/spf13/viper"
 )

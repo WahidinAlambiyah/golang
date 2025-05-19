@@ -9,8 +9,8 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/codoworks/go-boilerplate/pkg/config/features"
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/pkg/config/features"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 	"gorm.io/driver/sqlite"
 	"gorm.io/gorm"

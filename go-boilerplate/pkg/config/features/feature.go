@@ -9,7 +9,7 @@ import (
 	"fmt"
 	"reflect"
 
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
 
 	"github.com/jedib0t/go-pretty/v6/table"
 )

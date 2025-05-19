@@ -8,10 +8,10 @@ package cats
 import (
 	"net/http"
 
-	"github.com/codoworks/go-boilerplate/pkg/api/handlers"
-	"github.com/codoworks/go-boilerplate/pkg/api/helpers"
-	"github.com/codoworks/go-boilerplate/pkg/db/models"
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/pkg/api/handlers"
+	"github.com/WahidinAlambiyah/golang/pkg/api/helpers"
+	"github.com/WahidinAlambiyah/golang/pkg/db/models"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 	"github.com/labstack/echo/v4"
 )

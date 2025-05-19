@@ -1,4 +1,4 @@
-module github.com/codoworks/go-boilerplate
+module github.com/WahidinAlambiyah/golang
 
 go 1.21
 

@@ -8,8 +8,8 @@ package proc
 import (
 	"fmt"
 
-	"github.com/codoworks/go-boilerplate/pkg/clients/dbc"
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/dbc"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
 )
 
 func DBCreate() {

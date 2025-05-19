@@ -8,17 +8,17 @@ package proc
 import (
 	"fmt"
 
-	"github.com/codoworks/go-boilerplate/pkg/api/routers"
-	clientsPkg "github.com/codoworks/go-boilerplate/pkg/clients"
-	"github.com/codoworks/go-boilerplate/pkg/clients/cors"
-	"github.com/codoworks/go-boilerplate/pkg/clients/dbc"
-	"github.com/codoworks/go-boilerplate/pkg/clients/gzip"
-	"github.com/codoworks/go-boilerplate/pkg/clients/kratos"
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
-	"github.com/codoworks/go-boilerplate/pkg/clients/service"
-	"github.com/codoworks/go-boilerplate/pkg/config"
-	"github.com/codoworks/go-boilerplate/pkg/db/models"
-	"github.com/codoworks/go-boilerplate/pkg/utils"
+	"github.com/WahidinAlambiyah/golang/pkg/api/routers"
+	clientsPkg "github.com/WahidinAlambiyah/golang/pkg/clients"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/cors"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/dbc"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/gzip"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/kratos"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/service"
+	"github.com/WahidinAlambiyah/golang/pkg/config"
+	"github.com/WahidinAlambiyah/golang/pkg/db/models"
+	"github.com/WahidinAlambiyah/golang/pkg/utils"
 )
 
 func InitServiceEnv(serviceName string, version string) {

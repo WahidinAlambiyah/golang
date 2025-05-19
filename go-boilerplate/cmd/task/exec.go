@@ -6,7 +6,7 @@ Contact: dexter.codo@gmail.com
 package task
 
 import (
-	"github.com/codoworks/go-boilerplate/pkg/proc"
+	"github.com/WahidinAlambiyah/golang/pkg/proc"
 
 	"github.com/spf13/cobra"
 )

@@ -6,13 +6,14 @@ Contact: dexter.codo@gmail.com
 package routers
 
 import (
-	catsHandlers "github.com/codoworks/go-boilerplate/pkg/api/handlers/cats"
-	"github.com/codoworks/go-boilerplate/pkg/api/handlers/errors"
-	healthHandlers "github.com/codoworks/go-boilerplate/pkg/api/handlers/healthz"
-	"github.com/codoworks/go-boilerplate/pkg/api/middlewares"
-	"github.com/codoworks/go-boilerplate/pkg/clients/logger"
-	"github.com/codoworks/go-boilerplate/pkg/config"
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	authHandlers "github.com/WahidinAlambiyah/golang/pkg/api/handlers/auth"
+	catsHandlers "github.com/WahidinAlambiyah/golang/pkg/api/handlers/cats"
+	"github.com/WahidinAlambiyah/golang/pkg/api/handlers/errors"
+	healthHandlers "github.com/WahidinAlambiyah/golang/pkg/api/handlers/healthz"
+	"github.com/WahidinAlambiyah/golang/pkg/api/middlewares"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/logger"
+	"github.com/WahidinAlambiyah/golang/pkg/config"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 )
 
 var publicApiRouter *Router
@@ -96,6 +97,11 @@ func registerPublicApiHealthCheckHandlers() {
 }
 
 func registerPublicAPIRoutes() {
+	// AUTH ROUTES
+	auth := publicApiRouter.Echo.Group("/auth")
+	auth.POST("/register", authHandlers.Register)
+	auth.POST("/login", authHandlers.Login)
+
 	cats := publicApiRouter.Echo.Group("/cats")
 	cats.GET("", catsHandlers.Index)
 	cats.GET("/:id", catsHandlers.Get)

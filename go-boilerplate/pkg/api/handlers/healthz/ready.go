@@ -8,9 +8,9 @@ package healthz
 import (
 	"net/http"
 
-	"github.com/codoworks/go-boilerplate/pkg/api/handlers"
-	"github.com/codoworks/go-boilerplate/pkg/api/helpers"
-	"github.com/codoworks/go-boilerplate/pkg/clients/dbc"
+	"github.com/WahidinAlambiyah/golang/pkg/api/handlers"
+	"github.com/WahidinAlambiyah/golang/pkg/api/helpers"
+	"github.com/WahidinAlambiyah/golang/pkg/clients/dbc"
 
 	"github.com/labstack/echo/v4"
 )

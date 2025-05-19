@@ -8,7 +8,7 @@ package errors
 import (
 	"net/http"
 
-	"github.com/codoworks/go-boilerplate/pkg/utils/constants"
+	"github.com/WahidinAlambiyah/golang/pkg/utils/constants"
 
 	"gorm.io/gorm"
 )

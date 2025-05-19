@@ -8,7 +8,7 @@ package gzip
 import (
 	"reflect"
 
-	"github.com/codoworks/go-boilerplate/pkg/config/features"
+	"github.com/WahidinAlambiyah/golang/pkg/config/features"
 )
 
 type GzipClient struct {

@@ -5,7 +5,7 @@ Contact: dexter.codo@gmail.com
 */
 package proc
 
-import "github.com/codoworks/go-boilerplate/pkg/tasks"
+import "github.com/WahidinAlambiyah/golang/pkg/tasks"
 
 func TaskList() {
 	tasks.Tasks.PrintTasks()
